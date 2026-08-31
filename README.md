@@ -23,4 +23,4 @@ A record of my open-source contributions across machine learning, causal inferen
 | 17 | [Uber](https://github.com/uber) | [CausalML](https://github.com/uber/causalml) | [#1037](https://github.com/uber/causalml/issues/1037) | [#1042](https://github.com/uber/causalml/pull/1042) | Bug Fix | CATE-scoring's default LightGBM learner (`num_leaves=64`) was oversized for its per-fold, per-arm fitting pattern on small data slices | Python · LightGBM · CATE Scoring | Reduced default `num_leaves` from 64 to 31 across `compute_dr_pseudo_outcomes`, `dr_score`, `plug_in_t_score` | Strengthened tests covering the default-learner paths | 🟡 Open | Aug 2026 | Awaiting review |
 ---
 
-*Last updated: August 28, 2026*
+*Last updated: August 31, 2026*
